@@ -1,0 +1,86 @@
+.hidden{
+    display: none;
+}
+
+
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: black;
+    margin-top: 500px;
+    margin-bottom: 30px;
+}
+
+    
+
+img{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+
+#login-form{
+    text-align: center;
+}
+
+#login-form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#greeting{
+    text-align: center;
+}
+
+#todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+}
+
+#todo-form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#todo-list{
+    color: black;
+    text-align: center;
+    margin-left: -30px;
+    list-style-type: none;
+}
+
+#quote, #weather{
+    color: black;
+}
+
+#quote{
+    font-size: 15px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+#weather{
+    font-size: 15px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
